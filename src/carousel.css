@@ -1,0 +1,56 @@
+
+.carousel {
+  width: 1900px; /* Ajusta a imagem para preencher o tamanho do item */
+    
+
+  border-radius: 10px; /* Bordas arredondadas na imagem */
+  object-fit: square; /* Garante que a imagem cubra todo o espaço disponível sem distorcer */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+  justify-content: center; /* Centraliza os itens no eixo horizontal */
+     padding: 1%;
+    
+   
+    }
+
+.carousel-item {
+  flex: 0 0 auto; /* Impede que os itens sejam redimensionados, fazendo com que cada item tenha a largura fixa */
+
+ 
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+.carousel img {
+  
+  border-radius: 10px; /* Bordas arredondadas na imagem */
+  object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível sem distorcer */
+}
+
+.carousel-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+

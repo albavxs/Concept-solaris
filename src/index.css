@@ -5,13 +5,17 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background: linear-gradient(to top, #eee, hsl(35, 73%, 57%));
+  height: 150vh;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html, body {
+  width: 100%;
+}
+
 
 a {
   font-weight: 500;
@@ -21,11 +25,73 @@ a {
 a:hover {
   color: #535bf2;
 }
+header {
+  
+
+  
+  
+  display: flex;
+  
+  
+}
+
+.header {
+ width: 100%; /* Ajusta a imagem para preencher o tamanho do item */
+ 
+ 
+  object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível sem distorcer */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+  justify-content: left; /* Centraliza os itens no eixo horizontal */
+    
+     
+}
+.menu {
+  background-color: none;
+  padding: 15px;
+  
+   border-radius: 30px; /* Bordas arredondadas na imagem */
+}
+
+/* Navegação */
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Usa o Flexbox para alinhar os itens horizontalmente */
+}
+.home:hover, .assist:hover, .novos:hover {
+  color: hsl(35, 0%, 61%);
+}
+
+.header nav ul li {
+  margin-right: 20px; /* Espaçamento entre os itens de navegação */
+}
+
+/* Estilo para os links de navegação */
+.header nav ul li a {
+  color: hsla(35, 3%, 11%, 0.95);
+  text-decoration: none;
+  font-size: 22px;
+}
+
+main {
+  
+  max-width: 100%;
+ 
+  height: 100vh;
+  border-radius: 22px;
+}
+main p {
+  color: hsla(35, 3%, 11%, 0.95);
+  font-size: 22px;
+  
+}
+
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+ 
   min-width: 320px;
   min-height: 100vh;
 }
