@@ -37,7 +37,7 @@ header {
 
 .header {
  width: 100%; /* Ajusta a imagem para preencher o tamanho do item */
-  background: linear-gradient(to top, #eee, hsl(35, 73%, 57%));
+  background: linear-gradient(to right, hsl(35, 73%, 57%),hsl(330, 100%, 63%));
    border-radius: 20px;
   object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível sem distorcer */
     align-items: center; /* Alinha os itens no centro verticalmente */
@@ -82,7 +82,7 @@ main {
   border-radius: 22px;
 }
 main p {
-  color: hsla(35, 3%, 11%, 0.95);
+  color: #eee;
  
   
 }
@@ -91,7 +91,7 @@ main p {
 body {
   margin: 0;
   display: flex;
-  background-color: #eee;
+  background-color: #20272F;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -109,7 +109,7 @@ h1 {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #eee;
   }
   
 }
